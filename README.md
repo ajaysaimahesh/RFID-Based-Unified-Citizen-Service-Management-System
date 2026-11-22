@@ -8,7 +8,7 @@ through a single RFID-based platform.
 
 ## Block Diagram
 <p align="center">
-  <img src="Block Diagram.jpg" alt="Block Diagram" width="500">
+  <img src="RFID_BLOCK IMG.jpg" alt="Block Diagram" width="500">
 </p>
 
 ## Project images and videos
