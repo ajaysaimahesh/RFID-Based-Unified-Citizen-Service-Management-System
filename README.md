@@ -13,7 +13,7 @@ through a single RFID-based platform.
 
 ## Project images and videos
 
-https://drive.google.com/folderview?id=1wC8Qw4M1XTlmSEad3k9R3CLdwo6QXWav
+https://drive.google.com/drive/folders/1hqpGTsbJ8pYUEZvQlmdDhVpQtWswcNWT
 
 ## Features
 - RFID-based user authentication
