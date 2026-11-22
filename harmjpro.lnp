@@ -1,0 +1,14 @@
+--cpu ARM7TDMI
+".\startup.o"
+".\delay.o"
+".\keypad.o"
+".\lcd.o"
+".\rfid.o"
+".\rfid_test.o"
+".\spi.o"
+".\spi_eeprom.o"
+".\uart.o"
+".\user_menu.o"
+--ro-base 0x00000000 --entry 0x00000000 --rw-base 0x40000000 --strict --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\harmjpro.map" -o .\harmjpro.axf
