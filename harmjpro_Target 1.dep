@@ -1,57 +1,0 @@
-Dependencies for Project 'harmjpro', Target 'Target 1': (DO NOT MODIFY !)
-F (.\Startup.s)(0x532C14EA)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
-F (.\delay.c)(0x6AB4049D)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\delay.o --omf_browse .\delay.crf --depend .\delay.d)
-I (types.h)(0x6AB2B740)
-F (.\keypad.c)(0x6AB404CF)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\keypad.o --omf_browse .\keypad.crf --depend .\keypad.d)
-I (types.h)(0x6AB2B740)
-I (defines.h)(0x6AB40496)
-I (kpm_defines.h)(0x6AB404F4)
-I (C:\Keil\ARM\Inc\Philips\LPC21xx.h)(0x532C1500)
-I (lcd_defines.h)(0x6AB40534)
-I (delay.h)(0x6AB404A6)
-F (.\lcd.c)(0x6AB40524)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\lcd.o --omf_browse .\lcd.crf --depend .\lcd.d)
-I (C:\Keil\ARM\Inc\Philips\LPC21xx.h)(0x532C1500)
-I (lcd_defines.h)(0x6AB40534)
-I (types.h)(0x6AB2B740)
-I (defines.h)(0x6AB40496)
-I (delay.h)(0x6AB404A6)
-F (.\Rfid.c)(0x6AB40443)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\rfid.o --omf_browse .\rfid.crf --depend .\rfid.d)
-I (C:\Keil\ARM\Inc\Philips\lpc21xx.h)(0x532C1500)
-I (types.h)(0x6AB2B740)
-I (rfid.h)(0x6AB4044E)
-I (uart_defines.h)(0x6AB405E0)
-I (uart0.h)(0x6AB405D8)
-F (.\Rfid_test.c)(0x6AB413E6)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\rfid_test.o --omf_browse .\rfid_test.crf --depend .\rfid_test.d)
-I (C:\Keil\ARM\Inc\Philips\lpc21xx.h)(0x532C1500)
-I (types.h)(0x6AB2B740)
-I (lcd_defines.h)(0x6AB40534)
-I (kpm.h)(0x6AB404D8)
-I (spi_defines.h)(0x6AB405AA)
-I (spi_eeprom_defines.h)(0x6AB405BD)
-I (uart0.h)(0x6AB405D8)
-I (rfid.h)(0x6AB4044E)
-I (delay.h)(0x6AB404A6)
-I (user_menu.h)(0x6AB405F0)
-F (.\spi.c)(0x6AB405A3)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\spi.o --omf_browse .\spi.crf --depend .\spi.d)
-I (types.h)(0x6AB2B740)
-I (C:\Keil\ARM\Inc\Philips\LPC21xx.h)(0x532C1500)
-I (spi_defines.h)(0x6AB405AA)
-F (.\spi_eeprom.c)(0x6AB405B2)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\spi_eeprom.o --omf_browse .\spi_eeprom.crf --depend .\spi_eeprom.d)
-I (C:\Keil\ARM\Inc\Philips\LPC21xx.h)(0x532C1500)
-I (types.h)(0x6AB2B740)
-I (spi_defines.h)(0x6AB405AA)
-I (spi_eeprom_defines.h)(0x6AB405BD)
-I (delay.h)(0x6AB404A6)
-F (.\uart.c)(0x6AB405D1)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\uart.o --omf_browse .\uart.crf --depend .\uart.d)
-I (C:\Keil\ARM\Inc\Philips\LPC21xx.h)(0x532C1500)
-I (types.h)(0x6AB2B740)
-I (uart_defines.h)(0x6AB405E0)
-I (delay.h)(0x6AB404A6)
-F (.\user_menu.c)(0x6AB410C5)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\user_menu.o --omf_browse .\user_menu.crf --depend .\user_menu.d)
-I (C:\Keil\ARM\Inc\Philips\lpc21xx.h)(0x532C1500)
-I (types.h)(0x6AB2B740)
-I (lcd_defines.h)(0x6AB40534)
-I (delay.h)(0x6AB404A6)
-I (kpm.h)(0x6AB404D8)
-I (spi_eeprom_defines.h)(0x6AB405BD)
-I (user_menu.h)(0x6AB405F0)
