@@ -195,4 +195,4 @@ The current project can be further enhanced with:
 
 - The project also provides practical experience in Embedded C programming, microcontroller interfacing, RFID communication, SPI, UART, EEPROM, LCD and keypad interfacing.
 - ## Author
-- Ajay
+-  -N.Ajay-
