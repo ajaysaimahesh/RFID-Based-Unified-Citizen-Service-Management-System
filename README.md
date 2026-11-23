@@ -194,3 +194,5 @@ The current project can be further enhanced with:
 - By integrating the LPC2148 microcontroller, RFID reader, LCD, keypad, EEPROM, UART, SPI, LEDs, buzzer and RTC, the system demonstrates secure user identification and access to different services.
 
 - The project also provides practical experience in Embedded C programming, microcontroller interfacing, RFID communication, SPI, UART, EEPROM, LCD and keypad interfacing.
+- ## Author
+- Ajay
